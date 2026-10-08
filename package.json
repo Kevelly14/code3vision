@@ -1,8 +1,8 @@
 {
-  "name": "code4vision",
+  "name": "code3vision",
   "version": "1.0.0",
   "private": true,
-  "description": "Code4Vision — hero e apresentação de estúdio digital",
+  "description": "Code3Vision — hero e apresentação de estúdio digital",
   "scripts": {
     "dev": "node js/server.cjs",
     "start": "node js/server.cjs"

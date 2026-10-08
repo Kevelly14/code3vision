@@ -70,7 +70,7 @@
     if (!form.reportValidity()) return;
     const values = new FormData(form);
     const brief = [
-      'CODE4VISION — BRIEFING DO PROJETO',
+      'CODE3VISION — BRIEFING DO PROJETO',
       'Sua visão. Em outra dimensão.',
       '',
       `Nome: ${String(values.get('name')).trim()}`,

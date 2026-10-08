@@ -35,5 +35,5 @@ const server = http.createServer((request, response) => {
   });
 });
 
-server.listen(port, '127.0.0.1', () => console.log(`Code4Vision disponível em http://localhost:${port}`));
+server.listen(port, '127.0.0.1', () => console.log(`Code3Vision disponível em http://localhost:${port}`));
 server.on('error', (error) => { console.error(error.message); process.exitCode = 1; });

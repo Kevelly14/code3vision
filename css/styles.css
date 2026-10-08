@@ -146,6 +146,12 @@ button:disabled {
     z-index: 12
 }
 
+.logo {
+    width: 33px;
+    height: 33px;
+    
+}
+
 .brand {
     display: flex;
     align-items: center;
