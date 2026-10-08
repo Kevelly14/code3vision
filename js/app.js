@@ -108,7 +108,7 @@
   function updateMotion() {
     motionButton.setAttribute('aria-pressed', String(paused));
     motionButton.setAttribute('aria-label', paused ? 'Reproduzir animação' : 'Pausar animação');
-    window.code4visionArt?.setPaused(paused);
+    window.code3visionArt?.setPaused(paused);
   }
   motionButton.addEventListener('click', () => { paused = !paused; updateMotion(); });
   motionPreference.addEventListener('change', (event) => { paused = event.matches; updateMotion(); });

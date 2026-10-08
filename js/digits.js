@@ -167,7 +167,7 @@
     return { value, points: regions.flat(), filaments };
   }
 
-  window.code4visionDigits = {
+  window.code3visionDigits = {
     createGeometry(compact) {
       return outlines.map((polygon, index) => createDigit(polygon, index + 1, Boolean(compact)));
     },

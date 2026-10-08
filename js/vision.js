@@ -52,9 +52,9 @@
   function buildGeometry() {
     const nextDetail = width < 520 ? 'compact' : 'full';
     if (detail === nextDetail) return;
-    if (!window.code4visionDigits) return;
+    if (!window.code3visionDigits) return;
     detail = nextDetail;
-    digits = window.code4visionDigits.createGeometry(detail === 'compact');
+    digits = window.code3visionDigits.createGeometry(detail === 'compact');
     const random = randomGenerator(41729);
     particles = digits[0].points.map(() => ({
       x: 0, y: 0, z: 0, material: 0,
@@ -277,7 +277,7 @@
     }, { threshold: 0 }).observe(canvas);
   }
 
-  window.code4visionArt = { setPaused, setExpanded };
+  window.code3visionArt = { setPaused, setExpanded };
   resize();
   syncAnimation();
 })();
